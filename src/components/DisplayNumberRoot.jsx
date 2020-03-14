@@ -6,7 +6,7 @@ export default class DisplayNumberRoot extends React.Component {
       return(
         <div>
           <h1>Display Number Root</h1>
-          <DisplayNumber/>
+          <DisplayNumber unit="kg" />
           {/* <DisplayNumber number={this.props.number}/> */}
         </div>
       )
